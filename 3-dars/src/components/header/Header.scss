@@ -1,0 +1,35 @@
+
+
+.nav__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav__list{
+        display: flex;
+        list-style: none;
+        li{
+            margin: 0 1.6rem ;
+            display: flex;
+            align-items: flex-end;
+            .menu__arrow{
+                margin-left: 0.5rem;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .nav__log{
+        display: flex;
+        align-items: center;
+        gap: 0 1rem;
+        .nav__btn{
+            display: flex;
+            align-items: center;
+            gap: 0 10px;
+            padding: 1rem 1.75rem;
+            border-radius: 20px;
+            border: none;
+            background: #F54749;
+        }
+    }
+}

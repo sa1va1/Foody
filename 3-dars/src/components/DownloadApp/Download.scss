@@ -1,0 +1,31 @@
+
+.app__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 5rem;
+    .App-texts{
+        display: flex;
+        flex-direction: column;
+        color: #241415;
+        .App-title{
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        .App-text{
+            max-width: 28rem;
+            margin-top: 1rem;
+            font-size: 20px;
+            line-height: 30px;
+            opacity: 0.6;
+            margin-bottom: 3rem;
+        }
+        .App-btns{
+            display: flex;
+            gap: 0 1rem;
+        }
+    }
+    .App-image{
+        margin: 8rem 0;
+    }
+}

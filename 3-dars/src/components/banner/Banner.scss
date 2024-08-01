@@ -1,0 +1,76 @@
+
+
+.banner__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 1.5rem;
+    .Hero-image{
+        margin-top: 10rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.banner__left{
+    display: flex;
+    flex-direction: column;
+    max-width: 520px;
+    gap: 0 1rem;
+    .banner__subtitle{
+        display: flex;
+        align-items: center;
+        gap: 0 10px;
+        max-width: 191px;
+        font-size: 18px;
+        padding: 0.5rem 1.25rem;
+        border-radius: 50px;
+        color: #F54749;
+        background: #f5474a1f;
+        margin-top: 3rem;
+        margin-bottom: 10px;
+    }
+    .banner__title{
+        font-size: 5rem;
+        color: #141123;
+        margin-bottom: 1.5rem;
+        .banner-color{
+            color: #F54749;
+        }
+    }
+    .banner__text{
+        font-size: 20px;
+        color: #241415;
+        opacity: 0.6;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+.banner__btns{
+    display: flex;
+    gap: 0 2rem;
+    .banner__btn{
+        padding: 1rem 3rem;
+        border-radius: 50px;
+        font-size: 1rem;
+        border: none;
+        color: #FFFFFF;
+        background: #F54749;
+        line-height: 20px;
+    }
+    .play-video{
+        display: flex;
+        align-items: center;
+        gap: 0 10px;
+        border: none;
+        background: #FFFFFF;
+        .banner__bg{
+            padding: 13px;
+            border-radius: 50%;
+            background: #f5474a1f;
+        }
+        .banner__btn-text{
+            font-size: 1rem;
+            line-height: 30px;
+        }
+    }
+}
