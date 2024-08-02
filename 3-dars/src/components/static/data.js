@@ -1,6 +1,6 @@
 
 
-const customers = [
+export const customers = [
     {
         id: 1,
         description: "You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change.",
